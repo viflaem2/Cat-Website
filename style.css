@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
+    font-size: 14px;
+    background-color:#85695e
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+figure img {
+    width: 300px;
+}
+
+nav .main-menu {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-right: 1cm;
+}
+
+nav .main-menu li {
+    background-color: black;
+    margin: 0px 10px;
+    list-style: none;
+    font-size: x-large;
+    font-family: fantasy;
+}
+
+nav .main-menu li a {
+    background-color: black;
+    text-decoration: none;
+    color: lightgray;
+}
+
+nav .main-menu li a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+section .background-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+section .background-img img {
+    width: 100%;
+    justify-content: center;
+}
+
+body section .hero {
+    background-color: white;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-info {
+    position: absolute;
+    color: black;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+}
+
+button {
+    background-color: goldenrod;
+    padding: 15px 80px;
+    margin: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+}
+
+.news {
+    text-align: center;
+    background-image: linear-gradient(#85695e, #e0d0b9);
+    color: black;
+    font-size: x-large;
+    position: relative;
+}
+
+.news p {
+    text-align: center;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center_text {
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+article {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 70px;
+}
+
+.meta-tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: fantasy;
+    font-size: x-large;
+    list-style: none;
+}
+
+article div img {
+    width: 40vw;
+}
+
+.info-post {
+    text-align: center;
+    margin-left: 0.5cm;
+}
+
+footer {
+    background-color: #e0d0b9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    margin-top: 0;
+    height: 250px;
+    text-align: center;
+}
+
+.footer-form {
+    width: 45%;
+}
+
+.footer-form form {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px 0px 0px;
+    text-align: left;
+}
+
+.footer-social {
+    display: block;
+    align-items: center;
+    margin-top: 0;
+}
+.footer-social a{
+    display: inline-block;
+    margin:10px;
+}
+.footer-copyright{
+    background-color: #e0d0b9;
+    text-align: center;
+    left:50%;
+    font-size:medium;
+    font-weight: bold;
+}
+.footer-form input {
+    border-radius: 5px;
+    box-sizing: border-box;
+    color:black
+}
+.footer-form input[type="text"],
+.footer-form input[type="email"] {
+    border-color: goldenrod;
+    background-color:beige;
+}
+.footer-form input[type="text"]:focus,
+.footer-form input[type="email"]:focus {
+    background-color: white; 
+}
